@@ -13,6 +13,8 @@
 		58DDDAA328E5E0340021B79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DDDAA128E5E0340021B79B /* Main.storyboard */; };
 		58DDDAA528E5E0370021B79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DDDAA428E5E0370021B79B /* Assets.xcassets */; };
 		58DDDAA828E5E0370021B79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DDDAA628E5E0370021B79B /* LaunchScreen.storyboard */; };
+		58DDDAB028E5E30A0021B79B /* 20495694.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 58DDDAAF28E5E30A0021B79B /* 20495694.jpeg */; };
+		58DDDAB228E5E9CF0021B79B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDDAB128E5E9CF0021B79B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		58DDDAA428E5E0370021B79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58DDDAA728E5E0370021B79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58DDDAA928E5E0370021B79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DDDAAF28E5E30A0021B79B /* 20495694.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20495694.jpeg; sourceTree = "<group>"; };
+		58DDDAB128E5E9CF0021B79B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				58DDDA9B28E5E0340021B79B /* AppDelegate.swift */,
 				58DDDA9D28E5E0340021B79B /* SceneDelegate.swift */,
+				58DDDAB128E5E9CF0021B79B /* DetailViewController.swift */,
 				58DDDA9F28E5E0340021B79B /* ViewController.swift */,
 				58DDDAA128E5E0340021B79B /* Main.storyboard */,
 				58DDDAA428E5E0370021B79B /* Assets.xcassets */,
 				58DDDAA628E5E0370021B79B /* LaunchScreen.storyboard */,
+				58DDDAAF28E5E30A0021B79B /* 20495694.jpeg */,
 				58DDDAA928E5E0370021B79B /* Info.plist */,
 			);
 			path = WeatherApp;
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DDDAB028E5E30A0021B79B /* 20495694.jpeg in Resources */,
 				58DDDAA828E5E0370021B79B /* LaunchScreen.storyboard in Resources */,
 				58DDDAA528E5E0370021B79B /* Assets.xcassets in Resources */,
 				58DDDAA328E5E0340021B79B /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 				58DDDAA028E5E0340021B79B /* ViewController.swift in Sources */,
 				58DDDA9C28E5E0340021B79B /* AppDelegate.swift in Sources */,
 				58DDDA9E28E5E0340021B79B /* SceneDelegate.swift in Sources */,
+				58DDDAB228E5E9CF0021B79B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
