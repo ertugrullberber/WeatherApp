@@ -132,6 +132,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="WEATHER" id="Iuh-7V-8Ur"/>
+                    <connections>
+                        <outlet property="cityDegree" destination="iVq-eJ-QWm" id="Bdg-D2-Z2c"/>
+                        <outlet property="cityName" destination="Han-G4-8UO" id="QIT-zu-Ykp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nH4-6f-Mah" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

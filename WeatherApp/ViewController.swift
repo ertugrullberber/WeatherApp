@@ -34,7 +34,11 @@ class ViewController: UIViewController {
             
             self.present(alert, animated: true, completion: nil)
         } else {
-            let vc = self.storyboard?.instantiateViewController(identifier: "") as! DetailViewController
+            let vc = self.storyboard?.instantiateViewController(identifier: "DetailViewController") as! DetailViewController
+            
+            vc.city = city
+            
+            self.show(vc, sender: nil)
         }
     }
     
